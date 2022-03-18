@@ -1,0 +1,22 @@
+{
+  "name": "Music-Editor",
+  "env": {
+    "API_ID": {
+      "description": "Add your telegram API_ID",
+      "value": "MH"
+    },
+    "API_HASH": {
+      "description": "Add your telegram API_HASH",
+      "value": "Harshith"
+    },
+    "BOT_TOKEN": {
+      "description": "Your bot token, as a string.",
+      "value": "Harshith"
+}
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
